@@ -50,6 +50,6 @@ group :production do
 	gem 'rails_12factor'
 end
 
-group :develpment do
+group :development do
 	gem 'sqlite3'
 end
