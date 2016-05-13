@@ -25,6 +25,11 @@ posts = Post.all
 # #3
 100.times do
 
+
+Post.find_or_create_by(title:"I'm a mario", body:"Are you?")
+
+Comment.find_or_create_by(id: 1, body:"17 times")
+
 	Comment.create!(
 # #4
 		post:posts.sample,
