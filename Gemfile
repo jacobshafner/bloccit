@@ -55,4 +55,8 @@ group :development do
 	gem 'rspec-rails'
 end
 
+group :development, :test do
+  gem 'shoulda'
+end
+
 gem 'bootstrap-sass'
